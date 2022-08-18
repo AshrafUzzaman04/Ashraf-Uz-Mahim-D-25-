@@ -17,7 +17,7 @@ console.log(nameS[1][0], nameS[2][0]);
 
 // ---array with for loop-------------
 
-var sonu = ["Ashraf", "Mahim", "Rasel", "Bipu", 420];
+var sonu = ["Ashraf", "Mahim", "Rasel", "Bipu", null];
 
 console.log(sonu.length);
 

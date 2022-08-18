@@ -9,7 +9,7 @@ while (f <= 10) {
 }
 
 // ---FOR LOOP---
-var g = 52;
+var g = 62;
 for (let a = 1; a <= 10; a += 1) {
   console.log(g + " x" + a + " = " + g * a);
 }
