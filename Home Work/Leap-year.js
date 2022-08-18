@@ -1,13 +1,15 @@
-// Leap-year
+// Leap-year function given below
 
 function year(x) {
   if ((0 == x % 4 && 0 != x % 100) || 0 == x % 400) {
-    console.log(x + " " + "is a Leap-year.");
+    document.write(x + " " + "is a Leap-year.");
   } else if (x <= 0) {
-    console.log("To know which year is leap year, please enter any integer");
+    document.write(
+      "<h1>To know which year is leap year, please enter any integer</h1>"
+    );
   } else {
-    console.log(x + " " + "is not a Leap-year.");
+    document.write(x + " " + "is not a Leap-year.");
   }
 }
 
-year(1700);
+year(parseFloat(prompt("Enter a year :")));
